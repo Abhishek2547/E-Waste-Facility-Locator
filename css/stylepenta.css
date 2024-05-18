@@ -1,0 +1,12 @@
+.portfolio{text-align:center}
+.portfolio .pentagon{float:left;width:100%;margin:20px auto;}
+.pentagon .portfolio-title{position:relative;float:left;width:100%;height:20px;overflow:hidden;margin-top:20px}
+.pentagon .portfolio-title h4{position:relative;line-height:20px;width:100%;text-align:center;font-weight:700;color:#777}
+.portfolio-title h4 span{width:100%;position:absolute;left:0;color:#4EA838;top:20px;margin:0 auto}
+.portfolio .pentagon a{width:244px;height:276px;display:block;position:relative;margin:auto;}
+.portfolio .pentagon a img{position:absolute;left:17px;top:19px;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-ms-filter:grayscale(100%);filter:grayscale(100%);-webkit-transition:300ms ease-out;-moz-transition:300ms ease-out;-o-transition:300ms ease-out;transition:300ms ease-out;-webkit-backface-visibility:hidden}
+.portfolio .pentagon a img.hovering{left:227px;-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-ms-transform:rotate(30deg);-o-transform:rotate(30deg);transform:rotate(30deg)}
+.portfolio .pentagon a img.hovering1{left:-185px;-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-ms-transform:rotate(30deg);-o-transform:rotate(30deg);transform:rotate(30deg)}
+p.con{width:161px;float:none;left:45px;top:55px;position:absolute;font-family:menu;font-size:28px;color:#fff;line-height:34px}
+.portfolio .pentagon a span.mask,.portfolio .pentagon a span.mask1{width:244px;height:276px;position:absolute;top:0;left:0;z-index:2;background:url(../img/pentagon_mask.png) no-repeat;-webkit-transition:0 300ms ease-out;-moz-transition:0 300ms ease-out;-o-transition:0 300ms ease-out;transition:transform 300ms ease-out;-webkit-backface-visibility:hidden}
+.portfolio .pentagon a span.mask:hover,.portfolio .pentagon a span.mask1:hover{-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-ms-transform:rotate(30deg);-o-transform:rotate(30deg);transform:rotate(30deg)}

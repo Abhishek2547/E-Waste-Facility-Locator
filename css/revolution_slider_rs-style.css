@@ -1,0 +1,14 @@
+.bannercontainer{background-color:#fff;width:960px;position:relative;margin-left:auto;margin-right:auto}
+.bannercontainer-simple{background-color:#fff;width:960px;position:relative;margin-left:auto;margin-right:auto;padding:0}
+.fullwidthbanner-container{width:100%!important;position:relative;overflow:hidden;padding:0}
+.fullwidthbanner-container .fullwidthabnner{width:100%!important;max-height:650px!important;position:relative}
+.banner,.banner-simple{width:960px;height:500px;position:relative;overflow:hidden}
+@media only screen and (min-width:768px) and (max-width:959px) {
+.banner,.bannercontainer{width:760px;height:396px}
+}
+@media only screen and (min-width :480px)and (max-width: 767px) {
+.banner,.bannercontainer{width:480px;height:250px}
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+.banner,.bannercontainer{width:320px;height:167px}
+}
